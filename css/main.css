@@ -1,0 +1,434 @@
+@charset "utf-8";
+/* CSS Document */
+.container
+{
+	width: 100%;
+	height: 5600px;
+	background-color: white;
+}
+
+.header
+{
+	width: 100%;
+	height: 900px;
+	background: url("../images/hinh1.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+
+}
+
+.banner
+{
+	width: 100%;
+	height: 100px;
+}
+
+.logo
+{
+	width: 30%;
+	height: 100px;
+	float: left;
+}
+
+.menu
+{
+	width: 70%;
+	height: 100px;
+	float: right;
+	font-family: bevietnambold;
+	font-size: 20px;
+}
+
+.menu ul
+{
+	list-style: none;	
+}
+
+.menu ul li
+{
+	float:left;
+	padding: 10px 55px 10px 55px;
+}
+
+.menu ul li a
+{
+	text-decoration: none;
+	text-decoration-color:#dedff0 ;
+	color: #7780c9;
+}
+
+.menu ul li:hover
+{
+	background-color:#dedff0;
+}
+
+
+.slide
+{
+	width: 100%;
+	height: 800px;
+	
+	
+}
+.text_1
+{
+	width:40%;
+	height: 800px;
+	float: right;
+	font-family: bevietnambold;
+}
+
+.text_2a
+{
+	width: 100%;
+	height: 75px;
+	background-color: #dedff0;
+}
+
+.text_2
+{
+	width: 100%;
+	height: 125px;
+	background-color: #dedff0;
+}
+.text_2_1
+{
+	width:45%;
+	height: 125px;
+	font-size: 30px;
+	float: left;
+	font-family: bevietnambold;
+	color: #7780c9;
+	text-align: right;
+	padding-right: 20px;
+	
+}
+.text_2_2
+{
+	width:30%;
+	height: 125px;
+	float: left;
+	padding-left: 60px;
+}
+input
+{
+	width: 290px;
+	height: 50px;
+	border-radius: 30px;
+	border: none;
+}
+
+button
+{
+	width: 30%;
+	height: 50px;
+	border-radius: 30px;
+	background-color: #7780c9;
+	float: right;
+	border: none;
+	font-family: bevietnambold;
+	font-size: 18px;
+	color: #FFFFFF;
+	margin-left: 10px;
+}
+
+@font-face
+{
+	font-family: bevietnambold;
+	src: url("../font/BeVietnam-Bold.ttf");
+}
+	
+p {
+	font-size: 50px;
+  	text-align: justify;
+  	letter-spacing: 2px;
+	color: #7780c9;
+	margin-top: 0px;
+}
+
+h1 {
+	font-size: 20px;
+  	text-align: justify;
+  	letter-spacing: 5px;
+	color: #d36c81;
+}
+
+p_1 {
+	font-size: 30px;
+  	text-align: justify;
+	color: #7780c9;
+	padding-top: 10px;
+}
+
+p_2 {
+	font-family: bevietnambold;
+	font-size: 30px;
+  	text-align: justify;
+	color: #d36c81;
+	padding-left: 80px;
+	
+}
+
+h2 {
+	font-family: bevietnambold;
+	font-size: 16px;
+  	text-align: justify;
+  	letter-spacing: 1px;
+	color: #7780c9;
+	padding-left: 250px;
+}
+p_tt
+{
+	font-family: bevietnambold;
+	font-size: 24px;
+	color: #7780c9;
+}
+
+p_sm
+{
+	font-family: bevietnambold;
+	font-size: 14px;
+	color: #d36c81;
+}
+
+p_6
+{
+	font-family: bevietnambold;
+	font-size: 57px;
+}
+p_7
+{
+	font-family: bevietnambold;
+	font-size: 14px;
+	letter-spacing: 1px;
+	padding-right: 40px;
+}
+p_4cent2
+{
+	font-family: bevietnambold;
+	font-size: 14px;
+  	text-align: center;
+	color: #606060;
+}
+@font-face
+{
+	font-family: bevietnamregular;
+	src: url("../font/BeVietnam-Regular.ttf");
+}
+p_3
+{
+	font-family: bevietnamregular;
+	font-size: 30px;
+  	text-align: justify;
+	color: #d36c81;
+	padding-left: 80px;
+}
+p_3nopad
+{
+	font-family: bevietnamregular;
+	font-size: 30px;
+  	text-align: justify;
+	color: #d36c81;
+}
+
+p_4
+{
+	font-family: bevietnamregular;
+	font-size: 14px;
+  	text-align: justify;
+	color: #606060;
+	padding-left: 80px;
+}
+p_4cent
+{
+	font-family: bevietnamregular;
+	font-size: 14px;
+  	text-align: center;
+	color: #606060;
+}
+
+@font-face
+{
+	font-family: baskerville_italic;
+	src: url("../font/LibreBaskerville-Italic.ttf");
+}
+p_5 
+{
+	font-family: baskerville_italic;
+	font-size: 26px;
+  	text-align: justify;
+	color: #7780c9;
+	padding-left: 40px;
+}
+
+
+.body1440x800 
+{
+	width: 100%;
+	height: 800px;
+}
+
+.body_haft_1
+{
+	width: 50%;
+	height: 800px;
+	float: left;
+}
+
+.body_haft_2
+{
+	width: 50%;
+	height: 800px;
+	float: left;	
+}
+
+.ngangluoi1440x400
+{
+	width: 100%;
+	height: 400px;
+	background-color: brown;
+}
+.luoi360x400
+{
+	width: 25%;
+	height: 400px;
+	float: left;
+	background-color: white;
+	margin: auto;
+}
+
+.title1440x150
+{
+	width: 100%;
+	height: 150px;
+	background-color: white;
+}
+.pic1440x600
+{
+	width: 100%;
+	height: 600px;
+	background-color: white;
+	display: flex;
+	justify-content: center;
+}
+.pic_a
+{
+	width: 20%;
+	height: 600px;
+	margin: 0px 15px 0px 15px;
+}
+
+.body1440x300 
+{
+	width: 100%;
+	height: 300px;
+	background-color: #7780c9;
+	display: flex;
+	justify-content: center;
+}
+
+.number
+{
+	width: 70%;
+	height: 100px;
+	float: right;
+	font-family: bevietnambold;
+}
+
+.number ul
+{
+	list-style: none;	
+}
+
+.number ul li
+{
+	float:left;
+	padding-top: 95px;
+	padding-right: 15px;
+	text-decoration: none;
+	text-decoration-color:white;
+	color: white;
+}
+.body1440x500
+{
+	width: 100%;
+	height: 500px;
+	background-color: #dedff0;
+	justify-content: center;
+}
+.body1440x250
+{
+	width: 100%;
+	height: 250px;
+	background-color: white;
+	display: flex;
+	justify-content: center;
+}
+.contact250x250
+{
+	width: 15%;
+	height: 250px;
+	margin: 0px 5px 0px 5px;
+}
+.icon50x80
+{
+	width: 50px;
+	height: 80px;
+	justify-content: center;
+}
+hr
+{
+	height:3px;
+	width:80px;
+	text-align:center;
+	background-color:#7780c9;
+	border-width:0;
+}
+.body1440x360px
+{
+	width: 100%;
+	height: 360px;
+	background-color: #7780c9;
+	justify-content: center;
+}
+.logo_2
+{
+	width: 100%;
+	height: 160px;
+	justify-content: center;
+}
+
+.menu_2
+{
+	width: 40%;
+	height: 100px;
+	font-family: bevietnambold;
+	font-size: 16px;
+	justify-content: center;
+}
+
+.menu_2 ul
+{
+	list-style: none;
+	color: white;
+}
+
+.menu_2 ul li
+{
+	float:left;
+	text-decoration: none;
+	text-decoration-color:white;
+	margin-right: 50px;
+}
+.tagline
+{
+	width: 100%;
+	height: 110px;
+	justify-content: center;
+}
+.title1440x100
+{
+	width: 100%;
+	height: 100px;
+	background-color: white;
+}
